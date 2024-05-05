@@ -86,13 +86,45 @@ document.addEventListener("DOMContentLoaded", function () {
                     "https://www.coursera.org/learn/web-design-project/peer/VCAk1/option-1-design-sketch-demo-for-a-site-coded-from-scratch",
                     "https://www.coursera.org/learn/web-design-project/peer/j46GC/option-2-design-sketch-demo-for-a-site-coded-from-a-template",
                     "https://www.coursera.org/learn/web-design-project/peer/6PtQr/option-3-design-sketch-demo-for-a-site-coded-using-a-framework"
-                    
+
                 ];
                 openAllLinks(links);
                 break;
             case "ITA203c":
                 var links = [
                     "https://desktop.github.com/",
+                    "https://desktop.github.com/"
+                ];
+                openAllLinks(links);
+                break;
+
+            case "OBE102c":
+                var links = [
+                    "https://www.coursera.org/learn/organisational-design-know-your-organisation/exam/5RfaR/week-1-quiz",
+                    "https://www.coursera.org/learn/organisational-design-know-your-organisation/exam/OYE3p/week-2-quiz",
+                    "https://www.coursera.org/learn/organisational-design-know-your-organisation/exam/YwYiW/week-3-quiz",
+                    "https://www.coursera.org/learn/organisational-design-know-your-organisation/exam/6l2Kt/week-4-quiz",
+                    "https://www.coursera.org/learn/organisational-design-know-your-organisation/exam/8x6cj/week-5-quiz",
+                    "https://www.coursera.org/learn/organisational-design-know-your-organisation/exam/5WffK/week-6-quiz",
+                    "https://www.coursera.org/learn/organisational-behaviour-know-your-people/exam/zRlWQ/week-1-quiz",
+                    "https://www.coursera.org/learn/organisational-behaviour-know-your-people/exam/1KURG/week-2-quiz",
+                    "https://www.coursera.org/learn/organisational-behaviour-know-your-people/exam/FmSak/week-3-quiz",
+                    "https://www.coursera.org/learn/organisational-behaviour-know-your-people/exam/IaZ0y/week-4-quiz",
+                    "https://www.coursera.org/learn/organisational-behaviour-know-your-people/exam/tIsF8/week-5-quiz",
+                    "https://www.coursera.org/learn/organisational-behaviour-know-your-people/exam/Gxpbq/week-6-quiz",
+                    "https://www.coursera.org/learn/leadership-adapt-your-style/exam/Pp4Is/week-1-quiz",
+                    "https://www.coursera.org/learn/leadership-adapt-your-style/exam/5cwIa/week-2-quiz",
+                    "https://www.coursera.org/learn/leadership-adapt-your-style/exam/ptEiU/week-3-quiz",
+                    "https://www.coursera.org/learn/leadership-adapt-your-style/exam/DCUeC/week-4-quiz",
+                    "https://www.coursera.org/learn/leadership-adapt-your-style/exam/DkOVN/week-5-quiz",
+                    "https://www.coursera.org/learn/leadership-adapt-your-style/exam/n99hA/week-6-quiz",
+                    "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/OEvFA/week-1-quiz",
+                    "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/hyQcT/week-2-quiz",
+                    "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/EykYM/week-3-quiz",
+                    "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/CgKBN/week-4-quiz",
+                    "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/VzGtb/week-5-quiz",
+                    "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/9cHgJ/week-6-quiz",
+                    
                     "https://desktop.github.com/"
                 ];
                 openAllLinks(links);
