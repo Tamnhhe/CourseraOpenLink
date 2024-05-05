@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
             case "ITA203c":
                 openLinksButton.disabled = false;
                 break;
+            case "OBE102c":
+                openLinksButton.disabled = false;
+                break;
             default:
                 openLinksButton.disabled = true;
         }
@@ -124,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/CgKBN/week-4-quiz",
                     "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/VzGtb/week-5-quiz",
                     "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/9cHgJ/week-6-quiz",
-                    
+
                     "https://desktop.github.com/"
                 ];
                 openAllLinks(links);
