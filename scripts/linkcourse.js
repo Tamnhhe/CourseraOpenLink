@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 openLinksButton.disabled = false;
                 break;
             case "OBE102c":
-                openLinksButton.disabled = false;
+                openLinksButton.disabled = false;   
                 break;
             case "MKT208c":
                 openLinksButton.disabled = false;
