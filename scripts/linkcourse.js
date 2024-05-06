@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
             case "OBE102c":
                 openLinksButton.disabled = false;
                 break;
+            case "MKT208c":
+                openLinksButton.disabled = false;
+                break;
             default:
                 openLinksButton.disabled = true;
         }
@@ -129,6 +132,36 @@ document.addEventListener("DOMContentLoaded", function () {
                     "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/9cHgJ/week-6-quiz",
 
                     "https://desktop.github.com/"
+                ];
+                openAllLinks(links);
+                break;
+                case "MKT208c":
+                var links = [
+                    "https://www.coursera.org/learn/what-is-social/exam/ds0El/quiz-1",
+                    "https://www.coursera.org/learn/what-is-social/exam/nIo5r/quiz-2",
+                    "https://www.coursera.org/learn/what-is-social/exam/PpTck/quiz-3",
+                    "https://www.coursera.org/learn/what-is-social/exam/qxx9W/networking-tracking-assignment",
+                    "https://www.coursera.org/learn/importance-of-listening/exam/9UBG5/quiz-1",
+                    "https://www.coursera.org/learn/importance-of-listening/exam/kQ7g7/quiz-2",
+                    "https://www.coursera.org/learn/importance-of-listening/exam/jvjrY/quiz-3",
+                    "https://www.coursera.org/learn/importance-of-listening/exam/raxwA/quiz-4",
+                    "https://www.coursera.org/learn/nurture-market-strategies/exam/iLIPb/quiz-1",
+                    "https://www.coursera.org/learn/nurture-market-strategies/exam/DxLVm/quiz-2",
+                    "https://www.coursera.org/learn/nurture-market-strategies/exam/rJgvX/quiz-3",
+                    "https://www.coursera.org/learn/social-imc/exam/5jfJy/quiz-1",
+                    "https://www.coursera.org/learn/social-imc/exam/eqaQW/quiz-2",
+                    "https://www.coursera.org/learn/social-imc/exam/ecYtP/quiz-3",
+                    "https://www.coursera.org/learn/social-imc/exam/1aaIW/quiz-4",
+                    "https://www.coursera.org/learn/business-of-social/exam/8KuqZ/quiz-1",
+                    "https://www.coursera.org/learn/business-of-social/exam/w7LDW/quiz-2",
+                    "https://www.coursera.org/learn/business-of-social/exam/neGtD/assessing-your-performance",
+                    "https://www.coursera.org/learn/business-of-social/exam/A506k/quiz-3",
+                    "https://www.coursera.org/learn/what-is-social/peer/WABcz/career-targeting-assignment",
+                    "https://www.coursera.org/learn/importance-of-listening/peer/OmQZd/hearing-your-target-market-through-social-tools-finding-influencers-topics-and",
+                    "https://www.coursera.org/learn/nurture-market-strategies/peer/fW0dF/creating-your-first-blog-article",
+                    "https://www.coursera.org/learn/social-imc/peer/XTAiE/marketing-your-blog-a-b-split-test-messages",
+                    "https://www.coursera.org/learn/social-marketing-capstone/peer/tbzCQ/your-social-marketing-program"
+                    
                 ];
                 openAllLinks(links);
                 break;
