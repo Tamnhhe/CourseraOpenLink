@@ -14,9 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 openLinksButton.disabled = false;
                 break;
             case "OBE102c":
-                openLinksButton.disabled = false;   
+                openLinksButton.disabled = false;
                 break;
             case "MKT208c":
+                openLinksButton.disabled = false;
+                break;
+            case "NWC203c":
                 openLinksButton.disabled = false;
                 break;
             default:
@@ -135,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ];
                 openAllLinks(links);
                 break;
-                case "MKT208c":
+            case "MKT208c":
                 var links = [
                     "https://www.coursera.org/learn/what-is-social/exam/ds0El/quiz-1",
                     "https://www.coursera.org/learn/what-is-social/exam/nIo5r/quiz-2",
@@ -161,7 +164,45 @@ document.addEventListener("DOMContentLoaded", function () {
                     "https://www.coursera.org/learn/nurture-market-strategies/peer/fW0dF/creating-your-first-blog-article",
                     "https://www.coursera.org/learn/social-imc/peer/XTAiE/marketing-your-blog-a-b-split-test-messages",
                     "https://www.coursera.org/learn/social-marketing-capstone/peer/tbzCQ/your-social-marketing-program"
-                    
+
+                ];
+                openAllLinks(links);
+                break;
+            case "NWC203c":
+                var links = [
+                    "https://www.coursera.org/learn/fundamentals-network-communications/exam/dVp4Q/graded-assessment-communication-networks-and-services",
+                    "https://www.coursera.org/learn/fundamentals-network-communications/exam/86NSN/graded-assessment-layered-architecture",
+
+                ];
+                openAllLinks(links);
+                break;
+            case "ITA203c":
+                var links = [
+                    //MOOCS 1
+                    "https://www.coursera.org/learn/is-it-governance/exam/1ZzMt/module-1-it-alignment-quiz",
+                    "https://www.coursera.org/learn/is-it-governance/exam/nFr8P/module-2-evaluating-it-investments-part-i-quiz",
+                    "https://www.coursera.org/learn/is-it-governance/exam/ZMH29/module-3-evaluating-it-investments-part-ii-quiz",
+                    "https://www.coursera.org/learn/is-it-governance/exam/7oPvr/module-4-change-mangement-quiz",
+                    "https://www.coursera.org/learn/is-it-governance/peer/NF5oC/course-project",
+                    //MOOCS 2
+                    "https://www.coursera.org/learn/analysis-for-business-systems/exam/dK1Ay/module-1-intro-to-business-systems-quiz",
+                    "https://www.coursera.org/learn/analysis-for-business-systems/exam/wx8TD/module-2-analysis-phase-documentation-quiz",
+                    "https://www.coursera.org/learn/analysis-for-business-systems/exam/WjA7m/module-3-analysis-phase-diagrams-quiz",
+                    "https://www.coursera.org/learn/analysis-for-business-systems/exam/WtigG/module-4-design-phase-overview-quiz",
+                    "https://www.coursera.org/learn/analysis-for-business-systems/peer/0JWIn/course-project",
+                    //MOOCS 3
+                    "https://www.coursera.org/learn/enterprise-systems/exam/oN90U/module-1-erp-fundamentals-quiz",
+                    "https://www.coursera.org/learn/enterprise-systems/exam/YEQo5/module-2-business-processes-in-erp-quiz",
+                    "https://www.coursera.org/learn/enterprise-systems/exam/FVkY1/module-3-software-selection-considerations-quiz",
+                    "https://www.coursera.org/learn/enterprise-systems/exam/WgmXi/module-4-change-management-quiz",
+                    "https://www.coursera.org/learn/enterprise-systems/peer/drejr/course-project",
+                    //MOOCS 4
+                    "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/exam/TuOFa/module-1-cloud-computing-quiz",
+                    "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/exam/XDJwU/module-2-mobile-communications-quiz",
+                    "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/exam/AldLi/module-3-information-security-quiz",
+                    "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/exam/m9gar/module-4-emerging-trends-quiz",
+                    "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/peer/hcRkG/course-project"
+
                 ];
                 openAllLinks(links);
                 break;
