@@ -99,14 +99,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 ];
                 openAllLinks(links);
                 break;
-            case "ITA203c":
-                var links = [
-                    "https://desktop.github.com/",
-                    "https://desktop.github.com/"
-                ];
-                openAllLinks(links);
-                break;
-
             case "OBE102c":
                 var links = [
                     "https://www.coursera.org/learn/organisational-design-know-your-organisation/exam/5RfaR/week-1-quiz",
