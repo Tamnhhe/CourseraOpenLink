@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
             case "OBE102c":
                 openLinksButton.disabled = false;
                 break;
+            case "HRM201c":
+                openLinksButton.disabled = false;
+                break;
             case "MKT208c":
                 openLinksButton.disabled = false;
                 break;
@@ -194,6 +197,37 @@ document.addEventListener("DOMContentLoaded", function () {
                     "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/exam/AldLi/module-3-information-security-quiz",
                     "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/exam/m9gar/module-4-emerging-trends-quiz",
                     "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/peer/hcRkG/course-project"
+
+                ];
+                openAllLinks(links);
+                break;
+            case "HRM201c":
+                var links = [
+                    //MOOCS 1
+                    "https://www.coursera.org/learn/managing-human-resources/exam/DosiJ/different-approaches-to-managing-people",
+                    "https://www.coursera.org/learn/managing-human-resources/exam/NLXmK/monetary-aspects-of-work",
+                    "https://www.coursera.org/learn/managing-human-resources/exam/7HNLK/non-monetary-aspects-of-work",
+                    "https://www.coursera.org/learn/managing-human-resources/peer/VttJk/analyzing-your-hr-landscape",
+                    "https://www.coursera.org/learn/managing-human-resources/exam/bZ82U/managing-in-a-complex-system",
+                    //MOOCS 2
+                    "https://www.coursera.org/learn/recruiting-hiring-onboarding-employees/exam/rBUPh/aligning-recruitment-and-selection-with-company-strategy",
+                    "https://www.coursera.org/learn/recruiting-hiring-onboarding-employees/peer/yVhFK/workforce-planning-application-understanding-business-labor-challenges-and",
+                    "https://www.coursera.org/learn/recruiting-hiring-onboarding-employees/exam/Vxnf7/recruitment-finding-the-best-candidates",
+                    "https://www.coursera.org/learn/recruiting-hiring-onboarding-employees/exam/SOc3a/choosing-the-best-candidates",
+                    "https://www.coursera.org/learn/recruiting-hiring-onboarding-employees/peer/d2WZ1/onboarding-portfolio",
+                    //MOOCS 3
+                    "https://www.coursera.org/learn/employee-performance/exam/j1BHQ/developing-performance-management-systems",
+                    "https://www.coursera.org/learn/employee-performance/peer/Jr8Lr/management-by-objective-mbo",
+                    "https://www.coursera.org/learn/employee-performance/exam/HqYjb/tools-for-effective-performance-management",
+                    "https://www.coursera.org/learn/employee-performance/exam/uFZpA/creating-a-positive-performance-culture",
+                    //MOOCS 4
+                    "https://www.coursera.org/learn/compensation-management/exam/GNdfb/pay-determination",
+                    "https://www.coursera.org/learn/compensation-management/exam/ntuLz/pay-for-performance",
+                    "https://www.coursera.org/learn/compensation-management/exam/1SSga/benefits-and-compliance",
+                    "https://www.coursera.org/learn/compensation-management/peer/kyf9P/job-and-benefits-analysis",
+                    "https://www.coursera.org/learn/compensation-management/exam/6aszH/non-monetary-rewards",
+                    //MOOOCS 5
+                    "https://www.coursera.org/learn/human-resources-management-capstone/peer/UA2l3/hrm-capstone-project"
 
                 ];
                 openAllLinks(links);
