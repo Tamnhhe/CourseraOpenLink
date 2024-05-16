@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
             case "ITE303c":
                 openLinksButton.disabled = false;
                 break;
-
             default:
                 openLinksButton.disabled = true;
         }
