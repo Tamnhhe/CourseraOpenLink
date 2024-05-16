@@ -25,9 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
             case "MKT208c":
                 openLinksButton.disabled = false;
                 break;
-            case "NWC203c":
-                openLinksButton.disabled = false;
-                break;
             case "ITE303c":
                 openLinksButton.disabled = false;
                 break;
@@ -170,11 +167,63 @@ document.addEventListener("DOMContentLoaded", function () {
                 ];
                 openAllLinks(links);
                 break;
-            case "NWC203c":
+            case "SSL101c":
                 var links = [
-                    "https://www.coursera.org/learn/fundamentals-network-communications/exam/dVp4Q/graded-assessment-communication-networks-and-services",
-                    "https://www.coursera.org/learn/fundamentals-network-communications/exam/86NSN/graded-assessment-layered-architecture",
-
+                    //MOOCS 1
+                    "https://www.coursera.org/learn/digital-literacy/exam/vExwy/summative-quiz-module-1",
+                    "https://www.coursera.org/learn/digital-literacy/exam/AG3ia/discussion-board-self-assessment-module-1",
+                    "https://www.coursera.org/learn/digital-literacy/exam/FFWgS/summative-quiz-module-2",
+                    "https://www.coursera.org/learn/digital-literacy/exam/Ht89z/discussion-board-self-assessment-module-2",
+                    "https://www.coursera.org/learn/digital-literacy/exam/U9wJy/summative-module-3",
+                    "https://www.coursera.org/learn/digital-literacy/exam/DLz9q/discussion-board-self-assessment-module-3",
+                    "https://www.coursera.org/learn/digital-literacy/exam/EURgp/summative-module-4",
+                    "https://www.coursera.org/learn/digital-literacy/exam/ieIom/discussion-board-self-assessment-module-4",
+                    "https://www.coursera.org/learn/digital-literacy/exam/kcmYy/summative-module-5",
+                    "https://www.coursera.org/learn/digital-literacy/exam/JfQsU/discussion-board-self-assessment-module-5",
+                    "https://www.coursera.org/learn/digital-literacy/peer/OPSG4/critically-evaluating-sources",
+                    //MOOCS 2
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/p71AE/summative-quiz-module-1",
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/6p3ew/discussion-board-self-assessment-module-1",
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/eIThH/summative-quiz-module-2",
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/M5HbO/discussion-board-self-assessment-module-2",
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/2vjlk/summative-quiz-module-3",
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/uc0U7/discussion-board-self-assessment-module-3",
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/m6fac/summative-quiz-module-4",
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/O1xPA/discussion-board-self-assessment-module-4",
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/k1JMF/summative-quiz-module-5",
+                    "https://www.coursera.org/learn/problem-solving-skills/exam/5FGri/discussion-board-self-assessment-module-5",
+                    "https://www.coursera.org/learn/problem-solving-skills/peer/yOvvY/describing-your-problem-solving-processes",
+                    //MOOCS 3
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/UTsAS/summative-quiz-module-1",
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/YaKuB/discussion-board-self-assessment-module-1",
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/zU8g9/2-5-summative-quiz-module-2",
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/EVp7b/discussion-board-self-assessment-module-2",
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/pb577/summative-quiz-module-3",
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/zBNpz/discussion-board-self-assessment-module-3",
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/cTkDN/summative-quiz-module-4",
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/LJRMh/discussion-board-self-assessment-module-4",
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/auP1D/summative-quiz-module-5",
+                    "https://www.coursera.org/learn/critical-thinking-skills/exam/CHUDp/discussion-board-self-assessment-module-5",
+                    "https://www.coursera.org/learn/critical-thinking-skills/peer/PGcQn/critically-evaluating-arguments",
+                    //MOOCS 4
+                    "https://www.coursera.org/learn/communication-skills/exam/09pD5/summative-quiz-module-1",
+                    "https://www.coursera.org/learn/communication-skills/exam/aHMrE/discussion-board-self-assessment-module-1",
+                    "https://www.coursera.org/learn/communication-skills/exam/6FSQa/summative-quiz-module-2",
+                    "https://www.coursera.org/learn/communication-skills/exam/9VY4A/discussion-board-self-assessment-module-2",
+                    "https://www.coursera.org/learn/communication-skills/exam/4nrXk/summative-quiz-module-3",
+                    "https://www.coursera.org/learn/communication-skills/exam/o2R0C/discussion-board-self-assessment-module-3",
+                    "https://www.coursera.org/learn/communication-skills/exam/9CT7C/summative-quiz-module-4",
+                    "https://www.coursera.org/learn/communication-skills/exam/oQvEf/discussion-board-self-assessment-module-4",
+                    "https://www.coursera.org/learn/communication-skills/exam/x2T6q/summative-quiz-module-5",
+                    "https://www.coursera.org/learn/communication-skills/exam/nVuwW/discussion-board-self-assessment-module-5",
+                    "https://www.coursera.org/learn/communication-skills/peer/mSBnx/communication-in-a-university-course",
+                    //MOOCS 5
+                    "https://www.coursera.org/learn/academic-skills-project/peer/RYbjM/problem-statement",
+                    "https://www.coursera.org/learn/academic-skills-project/peer/jINkK/background-paragraph",
+                    "https://www.coursera.org/learn/academic-skills-project/peer/QYH47/evaluating-actions",
+                    "https://www.coursera.org/learn/academic-skills-project/peer/tZ8BQ/smart-goals",
+                    "https://www.coursera.org/learn/academic-skills-project/peer/8GYlG/project-proposal-final-submission",
+                    "https://www.coursera.org/learn/academic-skills-project/peer/Vdjs9/video-proposal-final-submission"
                 ];
                 openAllLinks(links);
                 break;
@@ -239,7 +288,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 ];
                 openAllLinks(links);
                 break;
-<<<<<<< HEAD
             case "ITE303c":
                 var links = [
                     //MOOCS 1
@@ -259,65 +307,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     "https://www.coursera.org/learn/ai-ethics-analysis/exam/tv0Oo/analysis",
                     "https://www.coursera.org/learn/ai-ethics-analysis/exam/bsDnp/analysis",
                     "https://www.coursera.org/learn/ai-ethics-analysis/exam/2plSH/analysis"
-=======
-            case "SSL101c":
-                var links = [
-                    //MOOCS 1
-                    "https://www.coursera.org/learn/digital-literacy/exam/vExwy/summative-quiz-module-1",
-                    "https://www.coursera.org/learn/digital-literacy/exam/AG3ia/discussion-board-self-assessment-module-1",
-                    "https://www.coursera.org/learn/digital-literacy/exam/FFWgS/summative-quiz-module-2",
-                    "https://www.coursera.org/learn/digital-literacy/exam/Ht89z/discussion-board-self-assessment-module-2",
-                    "https://www.coursera.org/learn/digital-literacy/exam/U9wJy/summative-module-3",
-                    "https://www.coursera.org/learn/digital-literacy/exam/DLz9q/discussion-board-self-assessment-module-3",
-                    "https://www.coursera.org/learn/digital-literacy/exam/EURgp/summative-module-4",
-                    "https://www.coursera.org/learn/digital-literacy/exam/ieIom/discussion-board-self-assessment-module-4",
-                    "https://www.coursera.org/learn/digital-literacy/exam/kcmYy/summative-module-5",
-                    "https://www.coursera.org/learn/digital-literacy/exam/JfQsU/discussion-board-self-assessment-module-5",
-                    "https://www.coursera.org/learn/digital-literacy/peer/OPSG4/critically-evaluating-sources",
-                    //MOOCS 2
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/p71AE/summative-quiz-module-1",
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/6p3ew/discussion-board-self-assessment-module-1",
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/eIThH/summative-quiz-module-2",
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/M5HbO/discussion-board-self-assessment-module-2",
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/2vjlk/summative-quiz-module-3",
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/uc0U7/discussion-board-self-assessment-module-3",
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/m6fac/summative-quiz-module-4",
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/O1xPA/discussion-board-self-assessment-module-4",
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/k1JMF/summative-quiz-module-5",
-                    "https://www.coursera.org/learn/problem-solving-skills/exam/5FGri/discussion-board-self-assessment-module-5",
-                    "https://www.coursera.org/learn/problem-solving-skills/peer/yOvvY/describing-your-problem-solving-processes",
-                    //MOOCS 3
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/UTsAS/summative-quiz-module-1",
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/YaKuB/discussion-board-self-assessment-module-1",
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/zU8g9/2-5-summative-quiz-module-2",
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/EVp7b/discussion-board-self-assessment-module-2",
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/pb577/summative-quiz-module-3",
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/zBNpz/discussion-board-self-assessment-module-3",
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/cTkDN/summative-quiz-module-4",
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/LJRMh/discussion-board-self-assessment-module-4",
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/auP1D/summative-quiz-module-5",
-                    "https://www.coursera.org/learn/critical-thinking-skills/exam/CHUDp/discussion-board-self-assessment-module-5",
-                    "https://www.coursera.org/learn/critical-thinking-skills/peer/PGcQn/critically-evaluating-arguments",
-                    //MOOCS 4
-                    "https://www.coursera.org/learn/communication-skills/exam/09pD5/summative-quiz-module-1",
-                    "https://www.coursera.org/learn/communication-skills/exam/aHMrE/discussion-board-self-assessment-module-1",
-                    "https://www.coursera.org/learn/communication-skills/exam/6FSQa/summative-quiz-module-2",
-                    "https://www.coursera.org/learn/communication-skills/exam/9VY4A/discussion-board-self-assessment-module-2",
-                    "https://www.coursera.org/learn/communication-skills/exam/4nrXk/summative-quiz-module-3",
-                    "https://www.coursera.org/learn/communication-skills/exam/o2R0C/discussion-board-self-assessment-module-3",
-                    "https://www.coursera.org/learn/communication-skills/exam/9CT7C/summative-quiz-module-4",
-                    "https://www.coursera.org/learn/communication-skills/exam/oQvEf/discussion-board-self-assessment-module-4",
-                    "https://www.coursera.org/learn/communication-skills/exam/x2T6q/summative-quiz-module-5",
-                    "https://www.coursera.org/learn/communication-skills/exam/nVuwW/discussion-board-self-assessment-module-5",
-                    "https://www.coursera.org/learn/communication-skills/peer/mSBnx/communication-in-a-university-course",
-                    //MOOCS 5
-                    "https://www.coursera.org/learn/academic-skills-project/peer/RYbjM/problem-statement",
-                    "https://www.coursera.org/learn/academic-skills-project/peer/jINkK/background-paragraph",
-                    "https://www.coursera.org/learn/academic-skills-project/peer/QYH47/evaluating-actions",
-                    "https://www.coursera.org/learn/academic-skills-project/peer/tZ8BQ/smart-goals",
-                    "https://www.coursera.org/learn/academic-skills-project/peer/8GYlG/project-proposal-final-submission",
-                    "https://www.coursera.org/learn/academic-skills-project/peer/Vdjs9/video-proposal-final-submission"
->>>>>>> c0269a6b72e2f51f9afbc3e75300219eb645fb4f
                 ];
                 openAllLinks(links);
                 break;
