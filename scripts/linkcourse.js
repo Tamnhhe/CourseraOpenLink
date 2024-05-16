@@ -25,6 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
             case "NWC203c":
                 openLinksButton.disabled = false;
                 break;
+            case "ITE303c":
+                openLinksButton.disabled = false;
+                break;
+
             default:
                 openLinksButton.disabled = true;
         }
@@ -229,6 +233,28 @@ document.addEventListener("DOMContentLoaded", function () {
                     //MOOOCS 5
                     "https://www.coursera.org/learn/human-resources-management-capstone/peer/UA2l3/hrm-capstone-project"
 
+                ];
+                openAllLinks(links);
+                break;
+            case "ITE303c":
+                var links = [
+                    //MOOCS 1
+                    "https://www.coursera.org/learn/ai-algorithm-limitations/exam/yMpV4/weekly-quiz",
+                    "https://www.coursera.org/learn/ai-algorithm-limitations/exam/Y1zqu/weekly-quiz",
+                    "https://www.coursera.org/learn/ai-algorithm-limitations/exam/czJXU/weekly-quiz",
+                    "https://www.coursera.org/learn/ai-algorithm-limitations/exam/kpD3i/weekly-quiz",
+                    //MOOCS 2
+                    "https://www.coursera.org/learn/ai-data-bias/exam/iytev/weekly-quiz",
+                    "https://www.coursera.org/learn/ai-data-bias/exam/vSZhp/weekly-quiz",
+                    "https://www.coursera.org/learn/ai-data-bias/exam/meLyz/weekly-quiz",
+                    //MOOCS 3
+                    "https://www.coursera.org/learn/ai-privacy-and-convenience/exam/xUnOw/weekly-quiz",
+                    "https://www.coursera.org/learn/ai-privacy-and-convenience/exam/HrFKc/weekly-quiz",
+                    "https://www.coursera.org/learn/ai-privacy-and-convenience/exam/lXceA/weekly-quiz",
+                    //MOOCS 4
+                    "https://www.coursera.org/learn/ai-ethics-analysis/exam/tv0Oo/analysis",
+                    "https://www.coursera.org/learn/ai-ethics-analysis/exam/bsDnp/analysis",
+                    "https://www.coursera.org/learn/ai-ethics-analysis/exam/2plSH/analysis"
                 ];
                 openAllLinks(links);
                 break;
