@@ -309,6 +309,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 ];
                 openAllLinks(links);
                 break;
+                case "PRJ301c":
+                var links = [
+                    //MOOCS 1
+                    "https://www.coursera.org/learn/java-database-connectivity-introduction/exam/NtBPQ/module-1-exam",
+                    "https://www.coursera.org/learn/java-database-connectivity-introduction/exam/Nr1SK/module-2-exam",
+                    //MOOCS 2
+                    "https://www.coursera.org/learn/java-database-connectivity-prepared-statements/exam/TnWzG/module-1-exam",
+                    "https://www.coursera.org/learn/java-database-connectivity-prepared-statements/exam/QHHim/module-2-exam",
+                    //MOOCS 3
+                    "https://www.coursera.org/learn/java-database-connectivity-sql-primer/exam/Pfic0/module-1-exam",
+                    "https://www.coursera.org/learn/java-database-connectivity-sql-primer/exam/U6geV/module-2-exam",
+                    //MOOCS 4
+                    "https://www.coursera.org/learn/java-database-connectivity-jakarta-persistence/exam/UDks0/module-1-exam",
+                    "https://www.coursera.org/learn/java-database-connectivity-jakarta-persistence/exam/jRFgH/module-2-exam",
+                    "https://www.coursera.org/learn/java-database-connectivity-jakarta-persistence/exam/l6sKX/module-3-exam"
+                ];
+                openAllLinks(links);
+                break;
         }
     }
 
