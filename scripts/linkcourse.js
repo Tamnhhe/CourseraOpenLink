@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
             case "OBE102c":
                 openLinksButton.disabled = false;
+            case "PRJ301c":
+                openLinksButton.disabled = false;
                 break;
             case "HRM201c":
                 openLinksButton.disabled = false;
@@ -309,7 +311,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ];
                 openAllLinks(links);
                 break;
-                case "PRJ301c":
+            case "PRJ301c":
                 var links = [
                     //MOOCS 1
                     "https://www.coursera.org/learn/java-database-connectivity-introduction/exam/NtBPQ/module-1-exam",
