@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             case "ITA203c":
                 openLinksButton.disabled = false;
                 break;
+                
             case "OBE102c":
                 openLinksButton.disabled = false;
             case "PRJ301c":
