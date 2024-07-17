@@ -330,24 +330,22 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case "WDU202c":
         var links = [
-          
-            "https://www.coursera.org/learn/visual-elements-user-interface-design/assignment-submission/xuu1h/user-interface-design-foundations",
-            "https://www.coursera.org/learn/visual-elements-user-interface-design/assignment-submission/gpo0x/formal-elements-of-ui-design",
-            "https://www.coursera.org/learn/visual-elements-user-interface-design/assignment-submission/1kscs/active-ui-design-elements",
-            "https://www.coursera.org/learn/visual-elements-user-interface-design/assignment-submission/SZjTJ/composing-ui-design",
-            "https://www.coursera.org/learn/ux-design-fundamentals/assignment-submission/vZFFi/ideation-articulation-and-development",
-            "https://www.coursera.org/learn/ux-design-fundamentals/assignment-submission/n7enV/planning-testing-researching-and-mapping",
-            "https://www.coursera.org/learn/ux-design-fundamentals/assignment-submission/l99qg/what-goes-where",
-            "https://www.coursera.org/learn/ux-design-fundamentals/assignment-submission/GvxL5/making-it-by-faking-it",
-            "https://www.coursera.org/learn/web-design-strategy/peer/jGsu2/project-ideas",
-            "https://www.coursera.org/learn/web-design-strategy/peer/qfDga/strategy-document",
-            "https://www.coursera.org/learn/web-design-strategy/peer/Fkj9b/outline-of-scope",
-            "https://www.coursera.org/learn/web-design-strategy/peer/NSY0y/sitemap",
-            "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/eEaSc/wireframes",
-            "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/RMarV/visual-mockups-home-pages",
-            "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/hGtkS/visual-mockups-full-set",
-            "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/B45Cf/final-project-submission"
-          
+          "https://www.coursera.org/learn/visual-elements-user-interface-design/assignment-submission/xuu1h/user-interface-design-foundations",
+          "https://www.coursera.org/learn/visual-elements-user-interface-design/assignment-submission/gpo0x/formal-elements-of-ui-design",
+          "https://www.coursera.org/learn/visual-elements-user-interface-design/assignment-submission/1kscs/active-ui-design-elements",
+          "https://www.coursera.org/learn/visual-elements-user-interface-design/assignment-submission/SZjTJ/composing-ui-design",
+          "https://www.coursera.org/learn/ux-design-fundamentals/assignment-submission/vZFFi/ideation-articulation-and-development",
+          "https://www.coursera.org/learn/ux-design-fundamentals/assignment-submission/n7enV/planning-testing-researching-and-mapping",
+          "https://www.coursera.org/learn/ux-design-fundamentals/assignment-submission/l99qg/what-goes-where",
+          "https://www.coursera.org/learn/ux-design-fundamentals/assignment-submission/GvxL5/making-it-by-faking-it",
+          "https://www.coursera.org/learn/web-design-strategy/peer/jGsu2/project-ideas",
+          "https://www.coursera.org/learn/web-design-strategy/peer/qfDga/strategy-document",
+          "https://www.coursera.org/learn/web-design-strategy/peer/Fkj9b/outline-of-scope",
+          "https://www.coursera.org/learn/web-design-strategy/peer/NSY0y/sitemap",
+          "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/eEaSc/wireframes",
+          "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/RMarV/visual-mockups-home-pages",
+          "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/hGtkS/visual-mockups-full-set",
+          "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/B45Cf/final-project-submission",
         ];
         openAllLinks(links);
         break;
