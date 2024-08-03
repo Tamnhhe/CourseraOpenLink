@@ -27,6 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
       case "MKT208c":
         openLinksButton.disabled = false;
         break;
+      case "MKT205c":
+        openLinksButton.disabled = false;
+        break;
       case "ITE303c":
         openLinksButton.disabled = false;
         break;
@@ -34,6 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
         openLinksButton.disabled = false;
         break;
       case "PMG201c":
+        openLinksButton.disabled = false;
+        break;
+      case "ENW492c":
         openLinksButton.disabled = false;
         break;
       default:
@@ -375,6 +381,78 @@ document.addEventListener("DOMContentLoaded", function () {
         ];
         openAllLinks(links);
         break;
+      case "MKT205c":
+        var links = [
+          //Moocs 1
+          "https://www.coursera.org/learn/intro-international-marketing/exam/WxgXz/lesson-1-quiz",
+          "https://www.coursera.org/learn/intro-international-marketing/exam/LOkrR/lesson-2-quiz",
+          "https://www.coursera.org/learn/intro-international-marketing/exam/mqBHH/lesson-3-quiz",
+          "https://www.coursera.org/learn/intro-international-marketing/exam/ZeBI4/final-quiz",
+          //Moocs 2
+          "https://www.coursera.org/learn/international-marketing-entry-execution/exam/PHKix/lesson-2-quiz",
+          "https://www.coursera.org/learn/international-marketing-entry-execution/exam/qdKcS/lesson-3-quiz",
+          "https://www.coursera.org/learn/international-marketing-entry-execution/exam/ByZLf/final-quiz",
+          //Moocs 3
+          "https://www.coursera.org/learn/b2b-marketing/exam/hypKj/lesson-1-graded-quiz",
+          "https://www.coursera.org/learn/b2b-marketing/exam/KJ0ko/lesson-2-graded-quiz",
+          "https://www.coursera.org/learn/b2b-marketing/exam/G9hsV/final-graded-quiz",
+          //Moocs 4
+          "https://www.coursera.org/learn/healthcare-marketing-hospitality-management/exam/Hd8oV/graded-quiz-for-lesson-1-what-is-unique-about-managing-a-service-business",
+          "https://www.coursera.org/learn/healthcare-marketing-hospitality-management/exam/J0CG1/graded-quiz-lesson-2-how-to-successfully-market-a-hospitality-business",
+          "https://www.coursera.org/learn/healthcare-marketing-hospitality-management/exam/cL2td/graded-quiz-lesson-3-how-to-successfully-market-a-healthcare-business",
+          //Moocs 5
+          "https://www.coursera.org/learn/international-entertainment-sports-marketing/exam/gThSc/week-1-graded-quiz",
+          "https://www.coursera.org/learn/international-entertainment-sports-marketing/exam/ePR95/week-2-graded-quiz",
+          "https://www.coursera.org/learn/international-entertainment-sports-marketing/exam/lEmqV/final-quiz",
+          //Moocs 6
+          "https://www.coursera.org/learn/international-vertical-marketing-capstone-project/peer/kjytx/international-marketing-cross-industry-growth-capstone-peer-review",
+        ];
+        openAllLinks(links);
+        break;
+      case "ENW492c":
+        var links = [
+          //Moocs 1
+          "https://www.coursera.org/learn/grammar-punctuation/exam/GUVaf/verb-tenses-and-conjunctions",
+          "https://www.coursera.org/learn/grammar-punctuation/exam/XRY2Y/compound-and-complex-sentences",
+          "https://www.coursera.org/learn/grammar-punctuation/exam/Udaq4/commas-parallel-structure-and-sentence-variety",
+          //Moocs 2
+          "https://www.coursera.org/learn/getting-started-with-essay-writing/exam/bhs3M/essay-writing",
+          "https://www.coursera.org/learn/getting-started-with-essay-writing/peer/ICHzg/compare-contrast-essay-peer-review",
+          "https://www.coursera.org/learn/getting-started-with-essay-writing/exam/NEr6a/writing-compare-contrast-essays",
+          "https://www.coursera.org/learn/getting-started-with-essay-writing/peer/fQ0p5/cause-effect-essay-peer-review",
+          "https://www.coursera.org/learn/getting-started-with-essay-writing/exam/JB7Fb/writing-cause-effect-essays",
+          "https://www.coursera.org/learn/getting-started-with-essay-writing/peer/y10b5/argument-essay-peer-review",
+          "https://www.coursera.org/learn/getting-started-with-essay-writing/exam/pedZ2/argument-essays",
+          //Moocs 3
+          "https://www.coursera.org/learn/advanced-writing/peer/a4RMx/advanced-argument-essay-peer-review",
+          "https://www.coursera.org/learn/advanced-writing/exam/DzuJn/advanced-argument-quiz",
+          "https://www.coursera.org/learn/advanced-writing/exam/HcYie/plagiarism-quiz",
+          "https://www.coursera.org/learn/advanced-writing/peer/mk7IJ/synthesis-essay-peer-review",
+          "https://www.coursera.org/learn/advanced-writing/exam/CPlvf/synthesis-essay-quiz",
+          "https://www.coursera.org/learn/advanced-writing/peer/8kvZL/documented-essay-peer-review",
+          "https://www.coursera.org/learn/advanced-writing/exam/IFp2m/documented-essay-quiz",
+          //Moocs 4
+          "https://www.coursera.org/learn/introduction-to-research-for-essay-writing/exam/cYaIj/introduction-to-research-quiz",
+          "https://www.coursera.org/learn/introduction-to-research-for-essay-writing/peer/fXG7c/annotated-bibliography-assignment-feedback",
+          "https://www.coursera.org/learn/introduction-to-research-for-essay-writing/peer/pAw7G/thesis-statement-for-research-paper",
+          "https://www.coursera.org/learn/introduction-to-research-for-essay-writing/exam/Gszpk/doing-research-quiz",
+          "https://www.coursera.org/learn/introduction-to-research-for-essay-writing/peer/mzs3a/using-statistics-for-writing-peer-review",
+          "https://www.coursera.org/learn/introduction-to-research-for-essay-writing/exam/4WjQv/language-for-research-quiz",
+          "https://www.coursera.org/learn/introduction-to-research-for-essay-writing/exam/UtIw0/citing-sources-and-formatting-quiz",
+          //Moocs 5
+          "https://www.coursera.org/learn/academic-writing-capstone/peer/liyDu/submit-research-paper-final-draft",
+        ];
+        openAllLinks(links);
+        break;
+      // case "MKT205c":
+      //   var links = [
+      //     //Moocs 1
+      //     //Moocs 2
+      //     //Moocs 3
+      //     //Moocs 4
+      //   ];
+      //   openAllLinks(links);
+      //   break;
     }
   }
 
