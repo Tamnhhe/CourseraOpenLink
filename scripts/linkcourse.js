@@ -33,6 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
       case "WDU202c":
         openLinksButton.disabled = false;
         break;
+      case "PMG201c":
+        openLinksButton.disabled = false;
+        break;
       default:
         openLinksButton.disabled = true;
     }
@@ -346,6 +349,29 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/RMarV/visual-mockups-home-pages",
           "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/hGtkS/visual-mockups-full-set",
           "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/B45Cf/final-project-submission",
+        ];
+        openAllLinks(links);
+        break;
+      case "PMG201c":
+        var links = [
+          //Moocs 1
+          "https://www.coursera.org/learn/project-planning/exam/Lgbz3/module-2-quiz",
+          "https://www.coursera.org/learn/project-planning/exam/eNyN4/module-3-quiz",
+          "https://www.coursera.org/learn/project-planning/exam/G1UnF/module-4-quiz",
+          "https://www.coursera.org/learn/project-planning/exam/iN7js/module-5-quiz",
+          "https://www.coursera.org/learn/project-planning/exam/T4KEX/final-exam",
+          //Moocs 2
+          "https://www.coursera.org/learn/schedule-projects/exam/TgJP8/module-2-quiz",
+          "https://www.coursera.org/learn/schedule-projects/exam/v8agT/module-3-quiz",
+          "https://www.coursera.org/learn/schedule-projects/exam/x8ob7/module-4-quiz",
+          "https://www.coursera.org/learn/schedule-projects/exam/n9zVp/final-exam",
+          //Moocs 3
+          "https://www.coursera.org/learn/project-risk-management/exam/k7VaC/module-2-quiz",
+          "https://www.coursera.org/learn/project-risk-management/exam/OSt8i/module-3-quiz",
+          "https://www.coursera.org/learn/project-risk-management/exam/Z46xy/module-4-quiz",
+          "https://www.coursera.org/learn/project-risk-management/exam/W08Xd/final-exam",
+          //Moocs 4
+          "https://www.coursera.org/learn/project-management-capstone/peer/jxp63/final-peer-review-assignment",
         ];
         openAllLinks(links);
         break;
