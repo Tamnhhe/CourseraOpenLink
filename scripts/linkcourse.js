@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var selectElement = document.getElementById("courseSelect");
   var openLinksButton = document.getElementById("openLinksButton");
-
   selectElement.addEventListener("change", function () {
     switch (selectElement.value) {
       case "ITE302c":
