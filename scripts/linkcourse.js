@@ -83,6 +83,10 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/detect-mitigate-ethical-risks/peer/oqeJE/algorithmic-impact-assessment-aia",
           "https://www.coursera.org/learn/ethical-communication-data-driven-technologies/peer/SSTVf/crisis-response",
           "https://www.coursera.org/learn/ethical-data-driven-technology-leader/peer/Vbox1/corporate-code-of-ethics-proposal",
+          "https://www.coursera.org/learn/ethics-of-artificial-intelligence/exam/zlc94/weekly-quiz",
+          "https://www.coursera.org/learn/ethics-of-artificial-intelligence/exam/D1iux/weekly-quiz",
+          "https://www.coursera.org/learn/ethics-of-artificial-intelligence/exam/cazTR/weekly-quiz",
+          "https://www.coursera.org/learn/ethics-of-artificial-intelligence/exam/Jh4NS/weekly-quiz"
         ];
         openAllLinks(links);
         break;
@@ -113,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/web-design-project/peer/prXqn/option-2-demo-your-portfolio-designed-from-a-template",
           "https://www.coursera.org/learn/web-design-project/peer/VCAk1/option-1-design-sketch-demo-for-a-site-coded-from-scratch",
           "https://www.coursera.org/learn/web-design-project/peer/j46GC/option-2-design-sketch-demo-for-a-site-coded-from-a-template",
-          "https://www.coursera.org/learn/web-design-project/peer/6PtQr/option-3-design-sketch-demo-for-a-site-coded-using-a-framework",
+          "https://www.coursera.org/learn/web-design-project/peer/6PtQr/option-3-design-sketch-demo-for-a-site-coded-using-a-framework"
         ];
         openAllLinks(links);
         break;
@@ -144,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/VzGtb/week-5-quiz",
           "https://www.coursera.org/learn/visionary-leadership-meaning-maker/exam/9cHgJ/week-6-quiz",
 
-          "https://desktop.github.com/",
+          "https://desktop.github.com/"
         ];
         openAllLinks(links);
         break;
@@ -173,7 +177,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/importance-of-listening/peer/OmQZd/hearing-your-target-market-through-social-tools-finding-influencers-topics-and",
           "https://www.coursera.org/learn/nurture-market-strategies/peer/fW0dF/creating-your-first-blog-article",
           "https://www.coursera.org/learn/social-imc/peer/XTAiE/marketing-your-blog-a-b-split-test-messages",
-          "https://www.coursera.org/learn/social-marketing-capstone/peer/tbzCQ/your-social-marketing-program",
+          "https://www.coursera.org/learn/social-marketing-capstone/peer/tbzCQ/your-social-marketing-program"
         ];
         openAllLinks(links);
         break;
@@ -233,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/academic-skills-project/peer/QYH47/evaluating-actions",
           "https://www.coursera.org/learn/academic-skills-project/peer/tZ8BQ/smart-goals",
           "https://www.coursera.org/learn/academic-skills-project/peer/8GYlG/project-proposal-final-submission",
-          "https://www.coursera.org/learn/academic-skills-project/peer/Vdjs9/video-proposal-final-submission",
+          "https://www.coursera.org/learn/academic-skills-project/peer/Vdjs9/video-proposal-final-submission"
         ];
         openAllLinks(links);
         break;
@@ -262,7 +266,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/exam/XDJwU/module-2-mobile-communications-quiz",
           "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/exam/AldLi/module-3-information-security-quiz",
           "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/exam/m9gar/module-4-emerging-trends-quiz",
-          "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/peer/hcRkG/course-project",
+          "https://www.coursera.org/learn/it-infrastructure-and-emerging-trends/peer/hcRkG/course-project"
         ];
         openAllLinks(links);
         break;
@@ -292,7 +296,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/compensation-management/peer/kyf9P/job-and-benefits-analysis",
           "https://www.coursera.org/learn/compensation-management/exam/6aszH/non-monetary-rewards",
           //MOOOCS 5
-          "https://www.coursera.org/learn/human-resources-management-capstone/peer/UA2l3/hrm-capstone-project",
+          "https://www.coursera.org/learn/human-resources-management-capstone/peer/UA2l3/hrm-capstone-project"
         ];
         openAllLinks(links);
         break;
@@ -314,7 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
           //MOOCS 4
           "https://www.coursera.org/learn/ai-ethics-analysis/exam/tv0Oo/analysis",
           "https://www.coursera.org/learn/ai-ethics-analysis/exam/bsDnp/analysis",
-          "https://www.coursera.org/learn/ai-ethics-analysis/exam/2plSH/analysis",
+          "https://www.coursera.org/learn/ai-ethics-analysis/exam/2plSH/analysis"
         ];
         openAllLinks(links);
         break;
@@ -332,7 +336,7 @@ document.addEventListener("DOMContentLoaded", function () {
           //MOOCS 4
           "https://www.coursera.org/learn/java-database-connectivity-jakarta-persistence/exam/UDks0/module-1-exam",
           "https://www.coursera.org/learn/java-database-connectivity-jakarta-persistence/exam/jRFgH/module-2-exam",
-          "https://www.coursera.org/learn/java-database-connectivity-jakarta-persistence/exam/l6sKX/module-3-exam",
+          "https://www.coursera.org/learn/java-database-connectivity-jakarta-persistence/exam/l6sKX/module-3-exam"
         ];
         openAllLinks(links);
         break;
@@ -353,7 +357,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/eEaSc/wireframes",
           "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/RMarV/visual-mockups-home-pages",
           "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/hGtkS/visual-mockups-full-set",
-          "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/B45Cf/final-project-submission",
+          "https://www.coursera.org/learn/web-design-wireframes-prototypes/peer/B45Cf/final-project-submission"
         ];
         openAllLinks(links);
         break;
@@ -376,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/project-risk-management/exam/Z46xy/module-4-quiz",
           "https://www.coursera.org/learn/project-risk-management/exam/W08Xd/final-exam",
           //Moocs 4
-          "https://www.coursera.org/learn/project-management-capstone/peer/jxp63/final-peer-review-assignment",
+          "https://www.coursera.org/learn/project-management-capstone/peer/jxp63/final-peer-review-assignment"
         ];
         openAllLinks(links);
         break;
@@ -404,7 +408,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/international-entertainment-sports-marketing/exam/ePR95/week-2-graded-quiz",
           "https://www.coursera.org/learn/international-entertainment-sports-marketing/exam/lEmqV/final-quiz",
           //Moocs 6
-          "https://www.coursera.org/learn/international-vertical-marketing-capstone-project/peer/kjytx/international-marketing-cross-industry-growth-capstone-peer-review",
+          "https://www.coursera.org/learn/international-vertical-marketing-capstone-project/peer/kjytx/international-marketing-cross-industry-growth-capstone-peer-review"
         ];
         openAllLinks(links);
         break;
@@ -439,7 +443,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/introduction-to-research-for-essay-writing/exam/4WjQv/language-for-research-quiz",
           "https://www.coursera.org/learn/introduction-to-research-for-essay-writing/exam/UtIw0/citing-sources-and-formatting-quiz",
           //Moocs 5
-          "https://www.coursera.org/learn/academic-writing-capstone/peer/liyDu/submit-research-paper-final-draft",
+          "https://www.coursera.org/learn/academic-writing-capstone/peer/liyDu/submit-research-paper-final-draft"
         ];
         openAllLinks(links);
         break;
