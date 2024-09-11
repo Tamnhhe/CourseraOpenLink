@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
       case "HRM201c":
         openLinksButton.disabled = false;
         break;
+      case "MSM201c":
+        openLinksButton.disabled = false;
+        break;
       case "SSL101c":
         openLinksButton.disabled = false;
         break;
@@ -447,15 +450,47 @@ document.addEventListener("DOMContentLoaded", function () {
         ];
         openAllLinks(links);
         break;
-      // case "MKT205c":
-      //   var links = [
-      //     //Moocs 1
-      //     //Moocs 2
-      //     //Moocs 3
-      //     //Moocs 4
-      //   ];
-      //   openAllLinks(links);
-      //   break;
+      case "MSM201c":
+        var links = [
+          //Moocs 1
+          "https://www.coursera.org/learn/social-media-marketing-introduction/assignment-submission/xUbL3/the-social-media-landscape-quiz",
+          "https://www.coursera.org/learn/social-media-marketing-introduction/assignment-submission/PMX6Y/social-media-platforms-overview-quiz",
+          "https://www.coursera.org/learn/social-media-marketing-introduction/assignment-submission/sUgWl/goals-and-planning-for-success-quiz",
+          "https://www.coursera.org/learn/social-media-marketing-introduction/peer/8gxni/create-a-smart-goal-and-kpis",
+          "https://www.coursera.org/learn/social-media-marketing-introduction/assignment-submission/8ygIE/understand-your-audience-quiz",
+          "https://www.coursera.org/learn/social-media-marketing-introduction/peer/ICTeY/create-a-customer-persona-and-journey-development",
+          "https://www.coursera.org/learn/social-media-marketing-introduction/assignment-submission/4yH7d/choose-your-social-media-channels-quiz",
+          //Moocs 2
+          "https://www.coursera.org/learn/social-media-management/peer/QLKjb/create-a-facebook-business-page-or-an-instagram-business-account",
+          "https://www.coursera.org/learn/social-media-management/assignment-submission/pW18i/establish-your-presence-quiz",
+          "https://www.coursera.org/learn/social-media-management/peer/0qlhr/create-a-post-on-facebook-or-instagram",
+          "https://www.coursera.org/learn/social-media-management/assignment-submission/WYax4/social-media-content-quiz",
+          "https://www.coursera.org/learn/social-media-management/peer/mcNJW/create-your-content-calendar",
+          "https://www.coursera.org/learn/social-media-management/assignment-submission/ADWjU/social-media-content-management-quiz",
+          "https://www.coursera.org/learn/social-media-management/assignment-submission/akiez/evaluate-your-efforts-quiz",
+          //Moocs 3
+          "https://www.coursera.org/learn/social-media-advertising-fundamentals/assignment-submission/GuFNN/introduction-to-social-media-advertising-quiz",
+          "https://www.coursera.org/learn/social-media-advertising-fundamentals/assignment-submission/Wm4q6/creating-effective-ads-on-social-media-quiz",
+          "https://www.coursera.org/learn/social-media-advertising-fundamentals/assignment-submission/Zrmzm/data-privacy-and-policies-on-social-media-quiz",
+          "https://www.coursera.org/learn/social-media-advertising-fundamentals/assignment-submission/2DLdC/getting-started-with-advertising-on-facebook-and-instagram-quiz",
+          "https://www.coursera.org/learn/social-media-advertising-fundamentals/peer/8U1LK/create-a-creative-brief-for-your-social-media-ad",
+          //Moocs 4
+          "https://www.coursera.org/learn/advertising-with-facebook/assignment-submission/iVgrh/first-steps-in-meta-ads-manager-quiz",
+          "https://www.coursera.org/learn/advertising-with-facebook/assignment-submission/URIhA/determine-your-campaign-objective-and-budget-quiz",
+          "https://www.coursera.org/learn/advertising-with-facebook/assignment-submission/eQFT4/select-your-audience-placements-and-schedule-quiz",
+          "https://www.coursera.org/learn/advertising-with-facebook/assignment-submission/XQ2j5/create-your-ads-and-evaluate-your-campaign-results-quiz",
+          "https://www.coursera.org/learn/advertising-with-facebook/assignment-submission/RpDiu/advertising-with-meta-quiz",
+          //Moocs 5
+          "https://www.coursera.org/learn/measure-and-optimize-social-media-marketing-campaigns/assignment-submission/JfaK0/evaluate-your-marketing-results-against-goals-quiz",
+          "https://www.coursera.org/learn/measure-and-optimize-social-media-marketing-campaigns/assignment-submission/ImL08/measure-your-advertising-effectiveness-quiz",
+          "https://www.coursera.org/learn/measure-and-optimize-social-media-marketing-campaigns/assignment-submission/aaNAv/optimize-your-ad-campaigns-quiz",
+          "https://www.coursera.org/learn/measure-and-optimize-social-media-marketing-campaigns/assignment-submission/RVWew/communicate-your-marketing-results-quiz",
+          //Moocs 6
+          "https://www.coursera.org/learn/facebook-social-media-marketing-capstone/gradedLti/9Ra4F/overview-of-the-certification-exam",
+          "https://www.coursera.org/learn/facebook-social-media-marketing-capstone/peer/xdfcq/creating-a-presentation"
+        ];
+        openAllLinks(links);
+        break;
     }
   }
 
