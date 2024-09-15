@@ -44,6 +44,9 @@ document.addEventListener("DOMContentLoaded", function () {
       case "ENW492c":
         openLinksButton.disabled = false;
         break;
+      case "SWE201c":
+        openLinksButton.disabled = false;
+        break;
       default:
         openLinksButton.disabled = true;
     }
@@ -488,6 +491,41 @@ document.addEventListener("DOMContentLoaded", function () {
           //Moocs 6
           "https://www.coursera.org/learn/facebook-social-media-marketing-capstone/gradedLti/9Ra4F/overview-of-the-certification-exam",
           "https://www.coursera.org/learn/facebook-social-media-marketing-capstone/peer/xdfcq/creating-a-presentation"
+        ];
+        openAllLinks(links);
+        break;
+      case "SWE201c":
+        var links = [
+          //Moocs 1
+          "https://www.coursera.org/learn/software-processes/exam/7cVLr/requirements-and-architecture",
+          "https://www.coursera.org/learn/software-processes/exam/5OFKn/design-implementation-and-testing",
+          "https://www.coursera.org/learn/software-processes/exam/9if2S/traditional-software-development-models",
+          "https://www.coursera.org/learn/software-processes/peer/1Rkcm/project-scenario-1",
+          "https://www.coursera.org/learn/software-processes/exam/1svrY/agile-lean-software-development",
+          "https://www.coursera.org/learn/software-processes/peer/LGfLh/project-scenario-2",
+          //Moocs 2
+
+          "https://www.coursera.org/learn/agile-software-development/exam/s08Gu/agile-fundamentals",
+          "https://www.coursera.org/learn/agile-software-development/exam/6DboS/requirements-and-planning",
+          "https://www.coursera.org/learn/agile-software-development/exam/CzWon/scrum",
+          "https://www.coursera.org/learn/agile-software-development/peer/YUTng/applying-the-agile-mindset-and-techniques",
+          "https://www.coursera.org/learn/agile-software-development/exam/JU7C1/xp",
+          "https://www.coursera.org/learn/agile-software-development/peer/ePve3/story-mapping",
+          //Moocs 3
+          "https://www.coursera.org/learn/lean-software-development/exam/pmc1p/lean-principles",
+          "https://www.coursera.org/learn/lean-software-development/peer/QryIh/value-stream-map",
+          "https://www.coursera.org/learn/lean-software-development/exam/dacrd/kanban-value-stream-mapping-and-kaizen",
+          "https://www.coursera.org/learn/lean-software-development/exam/VQh61/lean-startup",
+          "https://www.coursera.org/learn/lean-software-development/exam/pzDpO/design-thinking",
+          "https://www.coursera.org/learn/lean-software-development/peer/9BOgw/applying-design-thinking",
+          //Moocs 4
+          "https://www.coursera.org/learn/engineering-practices-secure-software-quality/exam/ub70n/quality-in-design",
+          "https://www.coursera.org/learn/engineering-practices-secure-software-quality/peer/r96Hl/assessing-quality-through-scenarios",
+          "https://www.coursera.org/learn/engineering-practices-secure-software-quality/peer/Q8mOW/code-style",
+          "https://www.coursera.org/learn/engineering-practices-secure-software-quality/peer/fKSZW/static-analysis",
+          "https://www.coursera.org/learn/engineering-practices-secure-software-quality/peer/kBZRc/commenting",
+          "https://www.coursera.org/learn/engineering-practices-secure-software-quality/exam/6vDJ3/quality-in-implementation",
+          "https://www.coursera.org/learn/engineering-practices-secure-software-quality/exam/kniXE/quality-in-testing-and-deployment"
         ];
         openAllLinks(links);
         break;
