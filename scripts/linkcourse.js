@@ -541,7 +541,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/frontend-development-for-java-full-stack/exam/6HMCv/javascript-dom-graded-quiz",
           "https://www.coursera.org/learn/frontend-development-for-java-full-stack/exam/ukBiS/angular-graded-quiz",
           "https://www.coursera.org/learn/frontend-development-for-java-full-stack/peer/Tvtbx/final-assignment-build-a-responsive-web-application-using-angular",
-          "https://www.coursera.org/learn/data-structures--backend-with-java/home/assignments",
           "https://www.coursera.org/learn/data-structures--backend-with-java/exam/6uz1h/data-structures-graded-quiz",
           "https://www.coursera.org/learn/data-structures--backend-with-java/exam/fPllm/spring-and-spring-boot-graded-quiz",
           "https://www.coursera.org/learn/data-structures--backend-with-java/peer/zseTr/final-assignment"
