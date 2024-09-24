@@ -38,6 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
       case "WDU202c":
         openLinksButton.disabled = false;
         break;
+      case "WDU203c":
+        openLinksButton.disabled = false;
+        break;
       case "PMG201c":
         openLinksButton.disabled = false;
         break;
