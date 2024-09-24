@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
       case "ITA203c":
         openLinksButton.disabled = false;
         break;
+      case "DMS301m":
+        openLinksButton.disabled = false;
+        break;
       case "OBE102c":
         openLinksButton.disabled = false;
       case "PRJ301c":
@@ -547,6 +550,77 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/data-structures--backend-with-java/exam/6uz1h/data-structures-graded-quiz",
           "https://www.coursera.org/learn/data-structures--backend-with-java/exam/fPllm/spring-and-spring-boot-graded-quiz",
           "https://www.coursera.org/learn/data-structures--backend-with-java/peer/zseTr/final-assignment"
+        ];
+        openAllLinks(links);
+        break;
+      case "DMS301m":
+        var links = [
+          "https://www.coursera.org/learn/digital-marketing-revolution/peer/I3HHN/case-discussion-apple-airtags",
+          "https://www.coursera.org/learn/digital-marketing-revolution/exam/TiM0L/digital-dominance-quiz",
+          "https://www.coursera.org/learn/digital-marketing-revolution/peer/KJPwi/case-discussion-disposable-cameras",
+          "https://www.coursera.org/learn/digital-marketing-revolution/exam/3qQsh/analog-resistance-quiz",
+          "https://www.coursera.org/learn/digital-marketing-revolution/peer/8Qrvv/case-discussion-amazon-go",
+          "https://www.coursera.org/learn/digital-marketing-revolution/exam/HJwFs/digital-analog-synergy-quiz",
+          "https://www.coursera.org/learn/digital-marketing-revolution/peer/3e708/case-discussion-museum-of-ice-cream",
+          "https://www.coursera.org/learn/digital-marketing-revolution/exam/IFFQJ/analog-transformation-quiz",
+          "https://www.coursera.org/learn/digital-marketing-revolution/peer/0AlRZ/exercise-online-review",
+          "https://www.coursera.org/learn/digital-marketing-revolution/peer/NGtia/exercise-write-and-send-physical-letter",
+          "https://www.coursera.org/learn/digital-marketing-revolution/peer/3Aro0/exercise-augmented-reality-app",
+          "https://www.coursera.org/learn/digital-marketing-revolution/peer/bjeWF/exercise-digital-detox",
+          "https://www.coursera.org/learn/marketing-digital/peer/GgpaB/case-study-peer-graded-assignment-threadless",
+          "https://www.coursera.org/learn/marketing-digital/exam/9KYry/exercise-quiz-ideas-lego-com",
+          "https://www.coursera.org/learn/marketing-digital/exam/hX2Qc/product-quiz",
+          "https://www.coursera.org/learn/marketing-digital/peer/19GJb/case-study-peer-graded-assignment-gopro",
+          "https://www.coursera.org/learn/marketing-digital/exam/BNoTq/exercise-quiz-wikipedia-org",
+          "https://www.coursera.org/learn/marketing-digital/exam/K4ifd/promotion-quiz",
+          "https://www.coursera.org/learn/marketing-digital/peer/a6gP1/case-study-peer-graded-assignment-tesla",
+          "https://www.coursera.org/learn/marketing-digital/exam/6KCF5/exercise-quiz-thingiverse-com",
+          "https://www.coursera.org/learn/marketing-digital/exam/pXIWi/placement-quiz",
+          "https://www.coursera.org/learn/marketing-digital/peer/s9Foz/case-study-peer-graded-assignment-panera",
+          "https://www.coursera.org/learn/marketing-digital/exam/6HACH/exercise-quiz-its-full-of-sparks",
+          "https://www.coursera.org/learn/marketing-digital/exam/GCKNv/price-quiz",
+          "https://www.coursera.org/learn/marketing-digital/peer/ytFDh/exercise-peer-graded-assignment-ideas-lego-com-honors-assignment",
+          "https://www.coursera.org/learn/marketing-digital/peer/nP8IF/exercise-peer-graded-assignment-wikipedia-org-honors-assignment",
+          "https://www.coursera.org/learn/marketing-digital/peer/jH3mT/exercise-peer-graded-assignment-thingiverse-honors-assignment",
+          "https://www.coursera.org/learn/marketing-digital/peer/fVSS2/exercise-peer-graded-assignment-its-full-of-sparks-honors-assignment",
+
+          "https://www.coursera.org/learn/marketing-analytics/exam/K01Br/module-1-quiz",
+          "https://www.coursera.org/learn/marketing-analytics/exam/SM1cl/module-2-quiz",
+          "https://www.coursera.org/learn/marketing-analytics/exam/Rjrox/module-3-quiz",
+          "https://www.coursera.org/learn/marketing-analytics/exam/ogHhB/module-4-quiz",
+          "https://www.coursera.org/learn/marketing-analytics/peer/2gpdI/module-4-peer-assessment",
+          "https://www.coursera.org/learn/marketing-analytics/peer/x3Zd8/module-1-peer-assessment",
+          "https://www.coursera.org/learn/marketing-analytics/peer/DjJu2/module-2-peer-assessment",
+          "https://www.coursera.org/learn/marketing-analytics/peer/igKfd/module-3-peer-assessment",
+
+          "https://www.coursera.org/learn/digital-analytics/exam/agIeh/module-1-quiz",
+          "https://www.coursera.org/learn/digital-analytics/exam/h8DH7/module-2-quiz",
+          "https://www.coursera.org/learn/digital-analytics/exam/0DEIx/module-3-quiz",
+          "https://www.coursera.org/learn/digital-analytics/exam/B26vd/module-4-quiz",
+          "https://www.coursera.org/learn/digital-analytics/peer/jHVHK/module-4-peer-assessment",
+          "https://www.coursera.org/learn/digital-analytics/peer/0EVeN/module-1-peer-assessment",
+          "https://www.coursera.org/learn/digital-analytics/peer/xWHmw/module-2-peer-assessment",
+          "https://www.coursera.org/learn/digital-analytics/peer/9SRfY/module-3-peer-assessment",
+
+          "https://www.coursera.org/learn/marketing-channels/exam/3geqo/module-1-quiz",
+          "https://www.coursera.org/learn/marketing-channels/exam/fQ3l8/module-2-quiz",
+          "https://www.coursera.org/learn/marketing-channels/exam/Tdv5E/module-3-quiz",
+          "https://www.coursera.org/learn/marketing-channels/peer/RDDhM/module-4-peer-assessment",
+          "https://www.coursera.org/learn/marketing-channels/exam/Kz0mW/module-4-quiz",
+
+          "https://www.coursera.org/learn/marketing-plan/exam/4JgBq/module-1-quiz",
+          "https://www.coursera.org/learn/marketing-plan/peer/xuSls/module-2-peer-assessment",
+          "https://www.coursera.org/learn/marketing-plan/exam/sTQid/module-2-quiz",
+          "https://www.coursera.org/learn/marketing-plan/exam/yCj5W/module-3-quiz",
+          "https://www.coursera.org/learn/marketing-plan/exam/6HNHN/module-4-quiz",
+          "https://www.coursera.org/learn/marketing-plan/peer/N6B5V/module-4-peer-assessment",
+
+          "https://www.coursera.org/learn/digital-marketing-capstone/peer/gbfLE/peer-assessment-module-1-client-brand-analysis",
+          "https://www.coursera.org/learn/digital-marketing-capstone/peer/31S4Q/peer-assessment-module-2-consumer-decision-journey",
+          "https://www.coursera.org/learn/digital-marketing-capstone/peer/pMFdU/peer-assessment-module-3-collect-and-analyze-data",
+          "https://www.coursera.org/learn/digital-marketing-capstone/peer/jMvoA/peer-assessment-module-4-channel-and-content-strategy",
+          "https://www.coursera.org/learn/digital-marketing-capstone/peer/TFgrp/peer-assessment-module-5-test-and-control-plan",
+          "https://www.coursera.org/learn/digital-marketing-capstone/peer/tAT6B/peer-assessment-module-6-final-digital-marketing-plan-submission"
         ];
         openAllLinks(links);
         break;
