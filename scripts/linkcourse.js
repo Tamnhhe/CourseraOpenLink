@@ -35,6 +35,9 @@ document.addEventListener("DOMContentLoaded", function () {
       case "MKT205c":
         openLinksButton.disabled = false;
         break;
+      case "EBC301c":
+        openLinksButton.disabled = false;
+        break;
       case "ITE303c":
         openLinksButton.disabled = false;
         break;
@@ -550,6 +553,80 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/data-structures--backend-with-java/exam/6uz1h/data-structures-graded-quiz",
           "https://www.coursera.org/learn/data-structures--backend-with-java/exam/fPllm/spring-and-spring-boot-graded-quiz",
           "https://www.coursera.org/learn/data-structures--backend-with-java/peer/zseTr/final-assignment"
+        ];
+        openAllLinks(links);
+        break;
+      case "WDU203c":
+        var links = [
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/exam/3UqZN/module-1",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/exam/X4OZv/ux-design-overview-part-1",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/peer/TOn8V/10-000-floor-elevator",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/peer/TOn8V/10-000-floor-elevator/give-feedback",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/exam/pK37I/module-3",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/exam/0IlQ5/module-4",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/exam/6IpKU/module-5",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/peer/oHo0T/heuristic-evaluation-part-1-generating-the-list-of-issues",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/peer/oHo0T/heuristic-evaluation-part-1-generating-the-list-of-issues/give-feedback",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/peer/dNCqC/heuristic-evaluation-part-2-writing-the-report",
+          "https://www.coursera.org/learn/introtoux-principles-and-processes/peer/dNCqC/heuristic-evaluation-part-2-writing-the-report/give-feedback"
+        ];
+        openAllLinks(links);
+        break;
+      case "EBC301c":
+        var links = [
+          "https://www.coursera.org/learn/business-english-intro/peer/EA9Ue/a-conversation",
+          "https://www.coursera.org/learn/business-english-intro/peer/VbyWx/persuade-me-to-move",
+          "https://www.coursera.org/learn/business-english-intro/peer/TzntC/describe-your-job",
+          "https://www.coursera.org/learn/business-english-intro/peer/LIM8F/promoting-your-company",
+          "https://www.coursera.org/learn/business-english-intro/exam/9KY87/email-greetings",
+          "https://www.coursera.org/learn/business-english-intro/exam/ZcpMW/building-the-right-email",
+          "https://www.coursera.org/learn/business-english-intro/peer/TqR87/write-an-email-based-on-a-scenario",
+          "https://www.coursera.org/learn/business-english-intro/peer/jwaMm/making-a-telephone-call",
+          "https://www.coursera.org/learn/business-english-intro/peer/rDJn7/arrangements-to-meet",
+          "https://www.coursera.org/learn/business-english-intro/peer/OOnmg/leaving-messages",
+          "https://www.coursera.org/learn/business-english-intro/peer/D8JXC/writing-invitation-emails-part-1",
+          "https://www.coursera.org/learn/business-english-intro/peer/8zqz3/writing-invitation-emails-part-2-updates",
+          "https://www.coursera.org/learn/business-english-intro/peer/w5CZx/writing-a-follow-up-email",
+          "https://www.coursera.org/learn/business-english-meetings/exam/zahvA/successful-meetings",
+          "https://www.coursera.org/learn/business-english-meetings/exam/CJGat/setting-up-a-meeting-email",
+          "https://www.coursera.org/learn/business-english-meetings/peer/o4QCX/writing-an-agenda",
+          "https://www.coursera.org/learn/business-english-meetings/exam/qqw7A/responding-to-meeting-invitations",
+          "https://www.coursera.org/learn/business-english-meetings/peer/OfsGX/writing-and-responding-to-a-meeting-announcement",
+          "https://www.coursera.org/learn/business-english-meetings/exam/grn9x/teleconferencing",
+          "https://www.coursera.org/learn/business-english-meetings/peer/qZBI6/plan-a-teleconference",
+          "https://www.coursera.org/learn/business-english-meetings/exam/AsrIF/directing-peoples-attention",
+          "https://www.coursera.org/learn/business-english-meetings/peer/fpDcy/reporting-on-data",
+          "https://www.coursera.org/learn/business-english-meetings/exam/CxoVi/brainstorming-ideas",
+          "https://www.coursera.org/learn/business-english-meetings/peer/WNa1K/add-the-missing-words",
+          "https://www.coursera.org/learn/business-english-meetings/peer/XRzID/creating-a-proposal",
+          "https://www.coursera.org/learn/business-english-negotiating/exam/V3gVl/guidelines-for-leaving-a-voicemail",
+          "https://www.coursera.org/learn/business-english-negotiating/peer/Whbkm/record-and-review-voicemail-message",
+          "https://www.coursera.org/learn/business-english-negotiating/exam/epwTT/language-of-comparison",
+          "https://www.coursera.org/learn/business-english-negotiating/peer/oPaJj/email-on-choice-of-venues",
+          "https://www.coursera.org/learn/business-english-negotiating/exam/JOiBZ/proposals-counter-offers-and-concessions",
+          "https://www.coursera.org/learn/business-english-negotiating/peer/SfmOi/writing-emails-in-a-negotiation",
+          "https://www.coursera.org/learn/business-english-negotiating/peer/hw9Hk/voicemail-describing-a-problem",
+          "https://www.coursera.org/learn/business-english-negotiating/exam/3Ch63/dealing-with-problems",
+          "https://www.coursera.org/learn/business-english-negotiating/exam/vZB4O/resolving-problems-a-conversation",
+          "https://www.coursera.org/learn/business-english-negotiating/peer/7jpLf/recording-a-voicemail-following-up-on-a-problem",
+          "https://www.coursera.org/learn/business-english-negotiating/exam/UlBvh/planning-events",
+          "https://www.coursera.org/learn/business-english-negotiating/peer/4gZa5/to-do-list",
+          "https://www.coursera.org/learn/business-english-negotiating/exam/EIB9O/lists-in-announcements",
+          "https://www.coursera.org/learn/business-english-negotiating/peer/hkNHb/writing-a-conference-announcement",
+          "https://www.coursera.org/learn/business-english-presentations/exam/pc6bz/guidelines-on-giving-a-presentation",
+          "https://www.coursera.org/learn/business-english-presentations/exam/255P9/effective-introductions",
+          "https://www.coursera.org/learn/business-english-presentations/exam/uZ3bS/introduction-transitions-and-conclusions",
+          "https://www.coursera.org/learn/business-english-presentations/exam/kGzdy/describing-charts-and-graphs",
+          "https://www.coursera.org/learn/business-english-presentations/exam/RVifh/giving-details-about-data",
+          "https://www.coursera.org/learn/business-english-presentations/exam/pLw2n/trends-vocabulary",
+          "https://www.coursera.org/learn/business-english-presentations/exam/MiUjU/marketing-expressions",
+          "https://www.coursera.org/learn/business-english-presentations/peer/llYKu/writing-a-marketing-piece",
+          "https://www.coursera.org/learn/business-english-presentations/peer/IZ0CA/final-presentation",
+          "https://www.coursera.org/learn/business-english-capstone/peer/gNfDe/your-networking-introduction",
+          "https://www.coursera.org/learn/business-english-capstone/peer/CEKkB/milestone-3-presentation-slides",
+          "https://www.coursera.org/learn/business-english-capstone/peer/dhuoV/milestone-5-first-draft-of-your-mini-business-plan",
+          "https://www.coursera.org/learn/business-english-capstone/peer/YzJdn/rough-presentation",
+          "https://www.coursera.org/learn/business-english-capstone/peer/Ts9S8/milestone-7-final-mini-business-plan-and-presentation"
         ];
         openAllLinks(links);
         break;
