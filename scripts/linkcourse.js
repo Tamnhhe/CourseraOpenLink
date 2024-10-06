@@ -72,11 +72,11 @@ document.addEventListener("DOMContentLoaded", function () {
     switch (courseName) {
       case "ITE302c":
         var links = [
-          "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/exam/iyd6e/data-driven-emerging-technologies-quiz",
-          "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/exam/2rF4o/privacy-and-legal-concepts-related-to-data-driven-technologies-quiz",
-          "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/exam/vousp/bias-quiz",
+          "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/assignment-submission/iyd6e/data-driven-emerging-technologies-quiz",
+          "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/assignment-submission/2rF4o/privacy-and-legal-concepts-related-to-data-driven-technologies-quiz",
+          "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/assignment-submission/vousp/bias-quiz",
           "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/exam/vA5Tl/ethical-theories-quiz",
-          "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/exam/RyrAe/ethical-principles-applied-to-data-driven-technologies-quiz",
+          "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/assignment-submission/RyrAe/ethical-principles-applied-to-data-driven-technologies-quiz",
           "https://www.coursera.org/learn/ethical-frameworks-action/exam/dFvtO/frameworks-and-ethical-responsibilities-with-data-driven-technologies-quiz",
           "https://www.coursera.org/learn/ethical-frameworks-action/exam/XINkU/application-of-ethical-frameworks-to-ethical-dilemmas-quiz",
           "https://www.coursera.org/learn/ethical-frameworks-action/exam/PVNuF/regulations-and-standards-quiz",
