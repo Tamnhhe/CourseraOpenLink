@@ -433,9 +433,9 @@ document.addEventListener("DOMContentLoaded", function () {
       case "ENW492c":
         var links = [
           //Moocs 1
-          "https://www.coursera.org/learn/grammar-punctuation/exam/GUVaf/verb-tenses-and-conjunctions",
-          "https://www.coursera.org/learn/grammar-punctuation/exam/XRY2Y/compound-and-complex-sentences",
-          "https://www.coursera.org/learn/grammar-punctuation/exam/Udaq4/commas-parallel-structure-and-sentence-variety",
+          "https://www.coursera.org/learn/grammar-punctuation/assignment-submission/GUVaf/verb-tenses-and-conjunctions",
+          "https://www.coursera.org/learn/grammar-punctuation/assignment-submission/XRY2Y/compound-and-complex-sentences",
+          "https://www.coursera.org/learn/grammar-punctuation/assignment-submission/Udaq4/commas-parallel-structure-and-sentence-variety",
           //Moocs 2
           "https://www.coursera.org/learn/getting-started-with-essay-writing/exam/bhs3M/essay-writing",
           "https://www.coursera.org/learn/getting-started-with-essay-writing/peer/ICHzg/compare-contrast-essay-peer-review",
