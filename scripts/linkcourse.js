@@ -388,10 +388,10 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/project-planning/exam/iN7js/module-5-quiz",
           "https://www.coursera.org/learn/project-planning/exam/T4KEX/final-exam",
           //Moocs 2
-          "https://www.coursera.org/learn/schedule-projects/exam/TgJP8/module-2-quiz",
-          "https://www.coursera.org/learn/schedule-projects/exam/v8agT/module-3-quiz",
-          "https://www.coursera.org/learn/schedule-projects/exam/x8ob7/module-4-quiz",
-          "https://www.coursera.org/learn/schedule-projects/exam/n9zVp/final-exam",
+          "https://www.coursera.org/learn/schedule-projects/assignment-submission/TgJP8/module-2-quiz",
+          "https://www.coursera.org/learn/schedule-projects/assignment-submission/v8agT/module-3-quiz",
+          "https://www.coursera.org/learn/schedule-projects/assignment-submission/x8ob7/module-4-quiz",
+          "hhttps://www.coursera.org/learn/schedule-projects/assignment-submission/n9zVp/final-exam",
           //Moocs 3
           "https://www.coursera.org/learn/project-risk-management/exam/k7VaC/module-2-quiz",
           "https://www.coursera.org/learn/project-risk-management/exam/OSt8i/module-3-quiz",
