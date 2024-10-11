@@ -77,18 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/assignment-submission/vousp/bias-quiz",
           "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/assignment-submission/vA5Tl/ethical-theories-quiz",
           "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/assignment-submission/RyrAe/ethical-principles-applied-to-data-driven-technologies-quiz",
-<<<<<<< Updated upstream
-          "https://www.coursera.org/learn/ethical-frameworks-action/assignment-submission/dFvtO/frameworks-and-ethical-responsibilities-with-data-driven-technologies-quiz",
-          "https://www.coursera.org/learn/ethical-frameworks-action/assignment-submission/XINkU/application-of-ethical-frameworks-to-ethical-dilemmas-quiz",
-          "https://www.coursera.org/learn/ethical-frameworks-action/assignment-submission/PVNuF/regulations-and-standards-quiz",
-          "https://www.coursera.org/learn/ethical-frameworks-action/assignment-submission/t5enb/conflict-reconciliation-between-ethics-regulations-and-business-demands-quiz",
-          "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/HqYhk/analyzing-ethical-risks",
-          "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/4MYUV/managing-privacy-risks",
-          "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/4CPkd/managing-transparency-and-explainability-risks-quiz",
-          "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/N6cA0/managing-accountability-risks-quiz",
-          "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/i1WSA/managing-fairness-and-non-discrimination-risks",
-          "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/ZSL8t/managing-safety-and-security-risks-quiz",
-=======
           "https://www.coursera.org/learn/promote-ethical-data-driven-technologies/peer/MneNm/op-ed-article",
           "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/HqYhk/analyzing-ethical-risks",
           "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/4MYUV/managing-privacy-risks",
@@ -97,7 +85,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/i1WSA/managing-fairness-and-non-discrimination-risks",
           "https://www.coursera.org/learn/detect-mitigate-ethical-risks/assignment-submission/ZSL8t/managing-safety-and-security-risks-quiz",
           "https://www.coursera.org/learn/detect-mitigate-ethical-risks/peer/oqeJE/algorithmic-impact-assessment-aia",
->>>>>>> Stashed changes
           "https://www.coursera.org/learn/ethical-communication-data-driven-technologies/exam/SNs9L/communicating-the-business-impacts-of-ethical-risks",
           "https://www.coursera.org/learn/ethical-communication-data-driven-technologies/exam/K6TaO/designing-communication-strategies",
           "https://www.coursera.org/learn/ethical-communication-data-driven-technologies/exam/5v1OD/managing-a-crisis-communicating-critical-messages-and-ensuring-business",
